@@ -1,5 +1,5 @@
 # Purpose:
-To familiarize myself with setting up a Jenkins server on an EC2 and deploying to AWS Elastic Beanstalk using the command line rather than the graphical user interface. Using AWS Elastic Beanstalk helps me understand what types of infrastructure are required to run an application. Also, this deployment demonstrated the purpose of setting up a github web hook to trigger an event after making commits to the github repository. 
+To familiarize myself with setting up a Jenkins server on an EC2 and deploying to AWS Elastic Beanstalk using the command line rather than the graphical user interface. I also passed along the application files that were successfully built and tested in Jenkins to AWS EB instead of manually uploading files from the repository. Using AWS Elastic Beanstalk helps me understand what types of infrastructure are required to run an application. Also, this deployment demonstrated the purpose of setting up a github web hook to trigger an event after making commits to the github repository. 
 
 ## Steps to Production
 ### 1. Provision a Jenkins Server
