@@ -39,7 +39,7 @@ The webhook could have been created before the change made to the jenkinsfile.
 #### a. Goal
 To trigger Jenkins to rebuild, test, and deploy the application code and files each time there is a new commit.
 #### b. Optimization
-In the future, I can install the Github plugin on Jenkins and configure the build triggers to build whenever there is a new commit in the repository instead of creating the webhook on Github.
+In the future, I can install the Github plugin on Jenkins and configure the build triggers to build whenever there is a new commit in the repository instead of creating the webhook on Github.  I am curious about whether it is possible to create the webhook to only be triggered by commits in certain files rather than the entire repository to avoid builds being created after updated Readme.md files.
 
 ### 3. Modifying the Application Code
 #### a. Goal
