@@ -30,6 +30,7 @@ Instead of running each command separately, I could have created a script to ins
 To be able to automatically deploy new changes/commits to the application files to the environment I created in the previous step.
 #### b. Process
 I added the deploy stage to the jenkinsfile, reran the build with the new jenkinsfile commit, and now Jenkins displayed a 'Deploy' stage.
+
 <img width="833" alt="Screen Shot 2023-09-15 at 4 08 59 PM" src="https://github.com/nalDaniels/Deployment3/assets/135375665/ae48a598-2cd9-48e7-9cc2-06a829d2b267">
 #### c. Optimization
 The webhook could have been created before the change made to the jenkinsfile. 
