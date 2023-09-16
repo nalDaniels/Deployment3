@@ -38,6 +38,8 @@ The webhook could have been created before the change made to the jenkinsfile.
 ### 3. Creating a Webhook
 #### a. Goal
 To trigger Jenkins to rebuild, test, and deploy the application code and files each time there is a new commit.
+#### b. Optimization
+In the future, I can install the Github plugin on Jenkins and configure the build triggers to build whenever there is a new commit in the repository instead of creating the webhook on Github.
 
 ### 3. Modifying the Application Code
 #### a. Goal
