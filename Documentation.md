@@ -21,7 +21,7 @@ I created a password for the jenkins user and signed into that profile. Then, I 
 Signing into the Jenkins user gave me access to the files and pipelines created by the build. In the pipeline with the application and test files, I initialized that directory to be the input files for Elastic Beanstalk to create the application. Instead of using the GUI, I used the terminal to create an enivronment for the application. The terminal, then, printed out the event logs, which showed the creation of the infrastructure. It also produced the URL to the deployed application.
 <img width="1211" alt="Screen Shot 2023-09-15 at 1 33 38 PM" src="https://github.com/nalDaniels/Deployment3/assets/135375665/de44f0a6-4d8d-4b8e-9b7d-4d293c519d88">
 #### c. Issue
-When running `pip install awsebcli --upgrade --user`, I ran into an issue using the pip command. The CLI suggested I run the sudo apt install python3-pip. However, I was unable to do this within the jenkins user and had to execute it using the ubuntu user profile.
+When running `pip install awsebcli --upgrade --user`, I ran into an issue using the pip command. The CLI suggested I run the sudo apt install python3-pip. I assume this means that in order to install awsebcli required the pip package manager specifically for python3. However, I was unable to do this within the jenkins user and had to execute it using the ubuntu user profile.
 #### d. Optimization
 Instead of running each command separately, I could have created a script to install AWS CLI, AWS EB CLI, and create the application. 
 
