@@ -44,11 +44,13 @@ To trigger Jenkins to rebuild, test, and deploy the application code and files e
 To create a new commit in the repository to trigger the webhook and rerun the build.
 #### b. Process
 I changed the names of the fields in the home.html file, and this prompted a new build in Jenkins. The new deployment had the updated changes. 
+
+
 <img width="331" alt="Screen Shot 2023-09-15 at 4 11 39 PM" src="https://github.com/nalDaniels/Deployment3/assets/135375665/40b01614-4b89-4d0b-9849-8829faabf333">
 <img width="853" alt="Screen Shot 2023-09-15 at 4 12 25 PM" src="https://github.com/nalDaniels/Deployment3/assets/135375665/fed5b2e9-5fb1-4d1b-b615-a33bd6671a32">
 <img width="1211" alt="Screen Shot 2023-09-15 at 4 12 37 PM" src="https://github.com/nalDaniels/Deployment3/assets/135375665/091f9746-d4d2-4cec-b854-3f91b6920f67">
 
-## Resouces
+## Resources
 Please find my system design for this deployment here:
 https://github.com/nalDaniels/Deployment3/blob/main/SystemDesign.md
 
